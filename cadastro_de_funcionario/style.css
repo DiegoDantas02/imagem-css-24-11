@@ -1,0 +1,21 @@
+body{
+    background: #de985e;
+    text-align: center;
+    border: 8px solid whitesmoke; 
+    /* background-color: ;  */
+    /* background-image: url(image/anim.jpg); */
+    /* background-repeat:no-repeat; */
+    
+    
+}
+.field{
+    display: inline-flex;
+    
+    
+}
+h1{
+    background-color: #ebc697;
+    margin-top: auto;
+    height: 80px ;
+    text-align: center;
+}
