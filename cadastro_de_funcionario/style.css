@@ -1,11 +1,13 @@
 body{
     background: #de985e;
     text-align: center;
-    border: 8px solid whitesmoke; 
+    
     /* background-color: ;  */
     /* background-image: url(image/anim.jpg); */
     /* background-repeat:no-repeat; */
-    
+}
+form{
+    border: 8px solid whitesmoke; 
     
 }
 .field{
