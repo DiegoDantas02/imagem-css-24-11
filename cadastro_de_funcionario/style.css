@@ -1,23 +1,69 @@
 body{
     background: #de985e;
-    text-align: center;
+    text-align: flex;
+    border: 6px solid greenyellow;
+    margin: 0px 0px 0px 0px;
     
     /* background-color: ;  */
-    /* background-image: url(image/anim.jpg); */
-    /* background-repeat:no-repeat; */
+     background-image: url(image/asas.jpg);
+     background-repeat:repeat;   
 }
+
 form{
-    border: 8px solid whitesmoke; 
+     
+    padding: 0px;
+    text-align: center;
+
     
 }
 .field{
-    display: inline-flex;
-    
+    display: flex;
+    justify-content:space-around; 
+    color: white;
     
 }
+
 h1{
     background-color: #ebc697;
-    margin-top: auto;
-    height: 80px ;
     text-align: center;
+    margin: 0px 0px 0px 0px;
+    border: solid 1px;
+    animation: animate 1.1s linear infinite; 
 }
+h1:hover{
+    color: aqua;
+    background: gold;
+}
+
+ @keyframes animate{
+    0%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 1.7;
+    }
+    100%{
+      opacity: 0;
+    }
+} 
+    .idade,.coleçao,.foto{border: 2px solid white;color: #de985e; display: flex; justify-content: space-around; margin-top: 60px; font-size: 20px;}
+
+    .extra{border-style:ridge;}
+
+    .f{background: #de985e; padding: 15PX; text-align: center;animation: animate 1.1s linear infinite;}
+    @keyframes animate{
+        0%{
+          opacity: 0;
+        }
+        50%{
+          opacity: 1.5;
+        }
+        100%{
+          opacity: 0;
+        }
+    } 
+    .f:hover{
+        color: aqua;
+        background: gold;
+    }
+    
