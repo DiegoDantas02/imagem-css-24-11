@@ -1,38 +1,33 @@
 body{
     background: #de985e;
-    text-align: flex;
+    text-align: relative;
     border: 6px solid greenyellow;
-    margin: 0px 0px 0px 0px;
-    
-    /* background-color: ;  */
-     background-image: url(image/asas.jpg);
+    margin: 0;
+     background-image: url(image/asas.jpg );
      background-repeat:repeat;   
 }
 
 form{
      
     padding: 0px;
-    text-align: center;
-
-    
+    text-align: center;  
 }
 .field{
     display: flex;
     justify-content:space-around; 
-    color: white;
-    
+    color:#de985e;
+    border-color:orangered ;   
 }
-
 h1{
     background-color: #ebc697;
     text-align: center;
     margin: 0px 0px 0px 0px;
-    border: solid 1px;
+    border: solid 2px orangered;
     animation: animate 1.1s linear infinite; 
 }
 h1:hover{
     color: aqua;
-    background: gold;
+    background: orangered;
 }
 
  @keyframes animate{
@@ -46,11 +41,9 @@ h1:hover{
       opacity: 0;
     }
 } 
-    .idade,.coleçao,.foto{border: 2px solid white;color: #de985e; display: flex; justify-content: space-around; margin-top: 60px; font-size: 20px;}
+    .idade,.coleçao,.foto{border: 2px solid orangered; color: #de985e; display: flex; justify-content: space-around; margin:60px; font-size: 20px; padding: 20px;}
 
-    .extra{border-style:ridge;}
-
-    .f{background: #de985e; padding: 15PX; text-align: center;animation: animate 1.1s linear infinite;}
+    .f{background: #de985e; padding: 15PX; text-align: center;animation: animate 1.1s linear infinite;border: 2px solid orangered;}
     @keyframes animate{
         0%{
           opacity: 0;
@@ -64,6 +57,7 @@ h1:hover{
     } 
     .f:hover{
         color: aqua;
-        background: gold;
+        background: orangered;
+        
     }
     
